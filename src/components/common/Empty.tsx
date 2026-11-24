@@ -1,0 +1,2 @@
+import { Inbox } from 'lucide-react'
+export default function Empty({t,d,children}:{t:string;d?:string;children?:React.ReactNode}){return <div className="rounded-3xl border-2 border-dashed border-primary/25 bg-surface p-8 text-center md:p-12"><Inbox className="mx-auto size-10 text-primary"/><h3 className="mt-3 text-xl font-bold text-navy">{t}</h3>{d&&<p className="mx-auto mt-2 max-w-md text-ink/75">{d}</p>}{children&&<div className="mt-5 flex justify-center">{children}</div>}</div>}

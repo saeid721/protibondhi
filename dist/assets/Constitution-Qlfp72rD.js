@@ -1,0 +1,6 @@
+import{c as s,j as e,f as r}from"./index-Djn-iZhi.js";import{P as i}from"./PageHead-B40XO2Db.js";import"./vendor-Dku4LDvz.js";import"./motion-BrxemxKV.js";import"./SEO-DFmcNEi_.js";/**
+ * @license lucide-react v0.460.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const o=s("FileText",[["path",{d:"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",key:"1rqfz7"}],["path",{d:"M14 2v4a2 2 0 0 0 2 2h4",key:"tnqrlb"}],["path",{d:"M10 9H8",key:"b1mrlr"}],["path",{d:"M16 13H8",key:"t4e002"}],["path",{d:"M16 17H8",key:"z1uh3a"}]]);function p(){return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"গঠনতন্ত্র",sub:"সংস্থার নিয়ম, সদস্যপদ, আর্থিক ব্যবস্থাপনা ও নির্বাচনের সারসংক্ষেপ।"}),e.jsxs("section",{className:"mx-auto max-w-3xl px-5 py-14",children:[e.jsxs("a",{href:"/constitution.pdf",download:!0,className:"btn bg-primary text-white",children:[e.jsx(o,{}),"পূর্ণ গঠনতন্ত্র PDF ডাউনলোড"]}),e.jsx("div",{className:"mt-8 space-y-3",children:r.map(([a,t])=>e.jsxs("details",{className:"group rounded-2xl border border-primary/20 p-5 open:bg-surface",children:[e.jsx("summary",{className:"cursor-pointer font-semibold text-navy",children:a}),e.jsx("p",{className:"mt-3 leading-relaxed",children:t})]},a))})]})]})}export{p as default};

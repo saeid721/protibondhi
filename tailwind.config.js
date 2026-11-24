@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{colors:{primary:{DEFAULT:'#087A50',soft:'#E8F3ED'},navy:'#12345B',surface:'#F5F8F6',ink:'#263238'},fontFamily:{bn:['"Hind Siliguri"','"Noto Sans Bengali"','system-ui','sans-serif']}}}}

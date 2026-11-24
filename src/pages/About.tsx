@@ -1,0 +1,5 @@
+import PageHead from '@/components/common/PageHead'
+import { site } from '@/data/site'
+const goals=['অরাজনৈতিক ও অলাভজনক সমাজসেবামূলক সংস্থা প্রতিষ্ঠা','প্রতিবন্ধীদের সুরক্ষা নিশ্চিত করা','আত্মনির্ভরশীলতা অর্জনের প্রত্যয় সৃষ্টি','ভিক্ষাবৃত্তিতে নিয়োজিতদের পুনর্বাসন','বৃক্ষরোপন কর্মসূচি','নারী কল্যাণ ও স্বাবলম্বী করা','বাল্য বিবাহ রোধ ও সচেতনতা','প্রাকৃতিক দুর্যোগে ত্রাণ ও আর্থিক সহায়তা','মাদকাসক্ত সমাজ গঠন','সামাজিক ও শিক্ষা কর্মকাণ্ড পরিচালনা']
+export default function About(){return <><PageHead title="আমাদের সম্পর্কে" sub={`${site.nameBn} একটি অসাম্প্রদায়িক ও অরাজনৈতিক স্বেচ্ছাসেবী প্রতিষ্ঠান। কর্ম এলাকা সমগ্র বগুড়া জেলা।`}/>
+<section className="mx-auto max-w-4xl px-5 py-14"><h2 className="text-2xl font-bold text-navy">লক্ষ্য ও উদ্দেশ্য</h2><ul className="mt-6 grid gap-3">{goals.map((g,i)=><li key={g} className="flex gap-3 rounded-xl bg-surface p-4"><span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-white">{i+1}</span>{g}</li>)}</ul></section></>}
